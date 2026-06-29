@@ -7,7 +7,7 @@ from chgnet.model.dynamics import CHGNetCalculator
 from ase.neighborlist import neighbor_list # 距離チェック用
 
 # =========================================================
-# CHGNetモデルの読み込み (省略)
+# CHGNetモデルの読み込み
 # =========================================================
 print("CHGNetモデルを読み込んでいます...")
 calc = CHGNetCalculator()
